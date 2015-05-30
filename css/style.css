@@ -1,0 +1,75 @@
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+.cm__label {
+	width: 100%;
+	max-width: 200px;
+	display: block;
+	float: left;
+	line-height: 28px;
+}
+.cm__group-item {
+	margin-bottom: 10px;
+}
+.cm__group-name { 
+	float: left; 
+	margin-right: 20px; 
+	width: 100%;
+	max-width: 595px; 
+}
+.cm__item {
+	padding: 5px;
+}
+
+.cm-add__header {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+	width: 120px;
+	padding-left: 10px;
+}
+.cm-add__container {
+	margin-top: 20px;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+}
+.cm-add__wrapper {
+	height: 30px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	-webkit-transition: 0.4s ease-in-out;
+	   -moz-transition: 0.4s ease-in-out;
+	   	   transition: 0.4s ease-in-out;
+}
+.cm-add__wrapper.cm-add__wrapper--buttonIn,
+.cm-add__wrapper.cm-add__wrapper--buttonIn {
+	-webkit-transform: translate(0,0);
+	   -moz-transform: translate(0,0);
+		   transform: translate(0,0);
+}
+.cm-add__fields.cm-add__wrapper--buttonOut {
+	-webkit-transform: translate(0,-30px);
+	   -moz-transform: translate(0,-30px);
+		   transform: translate(0,-30px);
+}
+.cm-add__btn.cm-add__wrapper--buttonOut {
+	-webkit-transform: translate(0,30px);
+	   -moz-transform: translate(0,30px);
+		   transform: translate(0,30px);
+}
+
+.cm__add-btn {
+	margin-top: 1px;
+}
+.cm input[type=text] {
+	width: 415px;
+}
+.cm input[type=checkbox] {
+	margin-top: 5px;
+	vertical-align: bottom;
+}
