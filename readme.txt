@@ -87,7 +87,3 @@ Just a Test
 == Upgrade Notice ==
 
 Not applicable at the moment
-
-== Screenshots ==
-
-No screenshot available
