@@ -75,9 +75,9 @@ Just a Test
 
 == Screenshots ==
 
-1. This is how the landing page of the plugin looks like.  (With a sample group data)
-2. Once inside the contact group, you can edit or add new contact rows.
-3. You can also adjust the minimum level that can use this plugin.
+1. Landing Page
+2. Contact Group details
+3. Settings Page
 
 == Changelog ==
 
