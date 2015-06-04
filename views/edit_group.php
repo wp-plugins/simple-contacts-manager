@@ -23,21 +23,37 @@
 						<h3 class="hndle ui-sortable-handle"><span>How to use</span></h3>
 						<div class="inside">
 							<div class="clearfix">
-								<p>There are 2 ways to get your desired specific contact data:</p>
+								<p>To get the values of each field is actually pretty straight forward.  Either you will use the PHP method or the shortcode method.</p>
+							</div>
+						</div>
+					</div>
 
-								<p><strong>PHP:</strong> you can use the cm_contact function then just supply the key of the contact that you are trying to get:</p>
+					<div class="postbox">
+						<h3 class="hndle ui-sortable-handle"><span>PHP</span></h3>
+						<div class="inside">
+							<div class="clearfix">
+								<p>You can use the cm_contact function then just supply the key of the contact that you are trying to get:</p>
 								<p>E.g. <br />&lt;?php<br /> echo cm_contact('<?php echo $this->current_group; ?>-general-group_name'); <br />?&gt;</p>
 								<p>Will have an output of:<br /><?php echo $this->current_group_name; ?></p>
-								
-								<p><hr /></p>
-								
-								<p><strong>SHORTCODE:</strong> you can use the shortcode [cm_contact key=""] then just supply the key or hit the "Get Shortcode" beside the contact</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="postbox">
+						<h3 class="hndle ui-sortable-handle"><span>SHORTCODE</span></h3>
+						<div class="inside">
+							<div class="clearfix">								
+								<p>You can use the shortcode [cm_contact key=""] then just supply the key or hit the "Get Shortcode" beside the contact</p>
 								<p>E.g. <br />[cm_contact key="<?php echo $this->current_group; ?>-general-group_name"]</p>
 								<p>Will have an output of:<br /><?php echo $this->current_group_name; ?></p>
-								
-								<p><hr /></p>
+							</div>
+						</div>
+					</div>
 
-								<p><strong>SPECIAL KEYS:</strong></p>
+					<div class="postbox">
+						<h3 class="hndle ui-sortable-handle"><span>SPECIAL KEYS</span></h3>
+						<div class="inside">
+							<div class="clearfix">
 								<p>The keys below will return all contacts in the section in an array</p>
 								<p>
 									<?php echo $this->current_group; ?>-general<br />
