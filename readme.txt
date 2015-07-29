@@ -81,6 +81,9 @@ Just a Test
 
 == Changelog ==
 
+= 1.3.1 =
+Updated the details for 4.2.3
+
 = 1.3 =
 * Initial Version (No version 1.0)
 
