@@ -3,8 +3,8 @@ Contributors: raeven
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UBJF27WXZUHD2&lc=PH&item_name=Earl%20Evan%20Amante&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: tool, wordpress, wordpress.org, contacts, contact manager, google analytics
 Requires at least: 3.0.1
-Tested up to: 4.2.2
-Stable tag: 1.3
+Tested up to: 4.2.3
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
