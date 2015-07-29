@@ -3,7 +3,7 @@
  * Plugin Name: Simple Contacts Manager
  * Plugin URI: https://wordpress.org/plugins/simple-contacts-manager/
  * Description: A simple contact manager for your personal use and business.  Multiple contact groups can be created to manage your contacts easier.  You may also print the contact easily in a page/post or anywhere on the page.  And as a plus, it includes easy input for your Google Analytics ID, and an option to add the Analytics codes to your site.
- * Version: 1.3
+ * Version: 1.3.1
  * Author: Earl Evan Amante
  * Author URI: https://github.com/earlamante/
  * License: GPL2
